@@ -39,13 +39,3 @@ export class MyDate{
 const myDate = new MyDate(1993,10,10);
 console.log(myDate.printFormat());
 console.log(myDate.getDay());
-
-const myDate2 = new MyDate();
-console.log('() =>', myDate2.printFormat());
-
-const myDate3 = new MyDate(2022);
-console.log('(2022) =>', myDate3.printFormat());
-
-const myDate4 = new MyDate(2022, 3);
-console.log('(2022, 3) =>', myDate4.printFormat());
-
